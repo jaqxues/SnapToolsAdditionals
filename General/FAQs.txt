@@ -1,3 +1,31 @@
-- Basic
--- FAQ
---- Test
+- General
+-- What is SnapTools?
+--- SnapTools is an app that utilizes the Xposed Framework to hook and modify Snapchat, in this case it’s to add extra features to your Snapchat app.
+
+-- What Snapchat versions are supported?
+--- You can see which versions are supported by checking which packs are available in the Pack Downloader tab in the Pack Manager section. The version of Snapchat that is supported will be on the pack's filename. Keep in mind that beta versions of Snapchat will never be supported by SnapTools, so don't download those versions by mistake.
+
+-- Can I use SnapTools on an emulator?
+--- It is possible to run SnapTools on an emulator (with a lot of time on your hands), but we do not condone the use of them. Many bugs may arise and Snapchat can lock you out or ban you for using an emulator.
+
+-- How do I check which version of Snapchat I have installed?
+--- In your device settings, go to your apps section and tap on Snapchat. You will be able to see your installed version at the bottom of the page, depending on which device you are using.
+
+-- Where can I download these Snapchat versions?
+--- We recommend downloading them from apkmirror.com as it is trusted. However, in order to download Snapchat v10.26.5.0, you can download it here: https://goo.gl/QpgUeE (link is case-sensitive).
+
+-- Will this get me banned?
+--- It shouldn’t. We did had ban waves in the past, but now we have app repackaging to change the package name of the app in order to hide the app from Snapchat. This can be done in the Settings section of your SnapTools app.
+
+-- My Snapchat keeps updating and therefore SnapTools does nothing, what do I do?
+--- Open up Snapchat’s page in the Play Store and disable automatic updates by tapping the top right hand corner and unchecking “Enable auto update”.
+
+-- Why am I unable to log in to Snapchat?
+--- One of two things is happening (maybe even both), either the Snapchat version you are trying to log into is too old or you’re not passing SafetyNet. If you’re using SuperSU, uninstall it and replace it with Magisk if possible. You MUST pass SafetyNet to log in. If you don’t know if you pass, download the Magisk Manager and check if you pass SafetyNet through there or use a third party SafetyNet checker on the Play Store.
+
+- Using the Sharing feature
+-- How come when I share my picture/video to Snapchat, nothing happens?
+--- You must share your file to the SnapTools app. It will then launch a prompt and open Snapchat. Follow the instructions on the prompt and it will work.
+
+-- How come when I spoof my picture, it's turned sideways/zoomed in/etc?
+--- At the moment, we are unable to pinpoint the cause of this issue. You can enable the Rotation Bug Fix in the Sharing section in the SnapTools app and it may fix your issue. Some members of the SnapTools Discord server have reported that tapping the flip camera button or toggling the flashlight on the top-right fixes the bug for them, but your mileage may vary.
